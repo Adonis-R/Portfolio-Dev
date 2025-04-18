@@ -103,15 +103,9 @@ export default function Home() {
           <div className="mx-auto flex max-w-[58rem] flex-col items-center justify-center gap-4 text-center">
             <h2 className="text-3xl font-bold leading-[1.1] sm:text-3xl md:text-5xl">À propos</h2>
             <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-              Passionné par le développement web depuis plus de 5 ans, je me spécialise dans la création
-              d&apos;applications web modernes et performantes. J&apos;aime résoudre des problèmes complexes et créer
-              des expériences utilisateur exceptionnelles.
+            Passionné par le développement web et les technologies, je me forme actuellement au métier de développeur full stack. J’aime comprendre comment les choses fonctionnent, résoudre des problèmes et créer des solutions utiles. Mon parcours m’a appris à m’adapter, à chercher constamment à m’améliorer et à apprendre de façon autonome. Je m'intéresse aussi bien au frontend qu’au backend, avec une envie particulière de creuser les aspects techniques et de monter en compétences chaque jour.
             </p>
-            <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-              Mon parcours m&apos;a permis de travailler sur divers projets, des sites vitrines aux applications SaaS
-              complexes, en passant par des plateformes e-commerce. Je suis constamment à l&apos;affût des dernières
-              technologies et meilleures pratiques pour offrir des solutions optimales.
-            </p>
+
           </div>
         </section>
 
@@ -128,14 +122,15 @@ export default function Home() {
               <SkillBadge name="Tailwind CSS" />
               <SkillBadge name="Node.js" />
               <SkillBadge name="Express" />
-              <SkillBadge name="MongoDB" />
-              <SkillBadge name="PostgreSQL" />
-              <SkillBadge name="GraphQL" />
-              <SkillBadge name="Docker" />
-              <SkillBadge name="AWS" />
+
+              <SkillBadge name="PHP" />
+              <SkillBadge name="MySQL" />
+
+
+
               <SkillBadge name="Git" />
-              <SkillBadge name="Jest" />
-              <SkillBadge name="Cypress" />
+
+
               <SkillBadge name="Figma" />
             </div>
           </div>
@@ -216,12 +211,12 @@ export default function Home() {
               <CardContent className="grid gap-4">
                 <div className="flex items-center gap-3">
                   <Mail className="h-5 w-5 text-muted-foreground" />
-                  <span>contact@example.com</span>
+                  <span>adonisriahi@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Github className="h-5 w-5 text-muted-foreground" />
-                  <Link href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                    github.com/username
+                  <Link href="https://github.com/Adonis-R" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    github.com/Adonis-R
                   </Link>
                 </div>
                 <div className="flex items-center gap-3">
