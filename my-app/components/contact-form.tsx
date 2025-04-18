@@ -17,10 +17,10 @@ export function ContactForm() {
     // Simuler l'envoi du formulaire
     setTimeout(() => {
       setIsSubmitting(false)
-      toast({
-        title: "Message envoyé !",
-        description: "Merci pour votre message. Je vous répondrai dès que possible.",
-      })
+      // toast({
+      //   title: "Message envoyé !",
+      //   description: "Merci pour votre message. Je vous répondrai dès que possible.",
+      // })
       // Réinitialiser le formulaire
       const form = e.target as HTMLFormElement
       form.reset()

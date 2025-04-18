@@ -103,7 +103,11 @@ export default function Home() {
           <div className="mx-auto flex max-w-[58rem] flex-col items-center justify-center gap-4 text-center">
             <h2 className="text-3xl font-bold leading-[1.1] sm:text-3xl md:text-5xl">À propos</h2>
             <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-            Passionné par le développement web et les technologies, je me forme actuellement au métier de développeur full stack. J’aime comprendre comment les choses fonctionnent, résoudre des problèmes et créer des solutions utiles. Mon parcours m’a appris à m’adapter, à chercher constamment à m’améliorer et à apprendre de façon autonome. Je m'intéresse aussi bien au frontend qu’au backend, avec une envie particulière de creuser les aspects techniques et de monter en compétences chaque jour.
+              Passionné par le développement web et les technologies, je me forme actuellement au métier de
+              développeur full stack. J’aime comprendre comment les choses fonctionnent, résoudre des problèmes
+              et créer des solutions utiles. Mon parcours m’a appris à m’adapter, à chercher constamment à
+              m’améliorer et à apprendre de façon autonome. Je m’intéresse aussi bien au frontend qu’au backend,
+              avec une envie particulière de creuser les aspects techniques et de monter en compétences chaque jour.
             </p>
 
           </div>
